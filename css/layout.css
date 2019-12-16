@@ -1,0 +1,21 @@
+ul{
+list-style-type: none;
+margin: 1;
+padding: 0;
+overflow: hidden;
+background-color:	#B0C4DE;
+
+}
+li a {
+float: left;
+}
+
+li a {
+display: block;
+color: 	#ffdd99;
+text-align: left;
+padding: 20px 30px;
+text-decoration: none;
+font-family: Courier New;
+font-style: oblique;
+}
