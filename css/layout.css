@@ -1,4 +1,4 @@
-ul{
+.ul-nav{
 list-style-type: none;
 margin: 1;
 padding: 0;
@@ -6,16 +6,40 @@ overflow: hidden;
 background-color:	#B0C4DE;
 
 }
-li a {
+.li-nav a {
 float: left;
 }
 
-li a {
+.li-nav a {
 display: block;
 color: 	#ffdd99;
 text-align: left;
-padding: 20px 30px;
+padding: 30px 40px;
 text-decoration: none;
 font-family: Courier New;
 font-style: oblique;
+}
+
+body {
+color: #ffdd99;
+font-family: Courier New;
+
+
+}
+
+h1 {
+color: #B0C4DE;
+font-family: Courier New;
+}
+h3 {
+color: #778899;
+font-family: Courier New;
+}
+
+a:hover {
+color: #778899;
+}
+
+body {
+line-height: 1.6;
 }
