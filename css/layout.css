@@ -23,13 +23,22 @@ font-style: oblique;
 body {
 color: #ffdd99;
 font-family: Courier New;
+}
 
+p {
+  color:  #778899;
+  font-family: Courier New;
+}
 
+ul {
+  color: #778899;
+  font-family: Courier New;
 }
 
 h1 {
 color: #B0C4DE;
 font-family: Courier New;
+text-align: center;
 }
 h3 {
 color: #778899;
@@ -39,7 +48,52 @@ font-family: Courier New;
 a:hover {
 color: #778899;
 }
+.img-history {
+height: 200px;
+width: 500px;
+}
+
+.img-mychoice2 {
+height: 200px;
+width: 500px;
+}
 
 body {
 line-height: 1.6;
+}
+.main-content{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.me{
+  float: right;
+  padding-right: 150px;
+}
+footer {
+	font-family:Courier New;
+  color: #B0C4DE;
+	text-align: center;
+	font-size: 0.9em;
+	border-top: 2px solid #B0C4DE;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+table {
+  font-family: Courier New;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #778899;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #778899;
+}
+tr:nth-child(odd) {
+  background-color: #778899;
 }
