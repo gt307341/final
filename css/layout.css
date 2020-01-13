@@ -21,22 +21,22 @@ font-style: oblique;
 }
 
 body {
-color: #ffdd99;
+color: #ffdd99;  <!-- gives color and font to all other body writing in my web site -->
 font-family: Courier New;
 }
 
 p {
-  color:  #778899;
+  color:  #778899;  <!-- gives color and a font to all of the paragraphs in my web site -->
   font-family: Courier New;
 }
 
 ul {
-  color: #778899;
+  color: #778899;   <!-- gives color and a font to all of the unordered lists in my web site -->
   font-family: Courier New;
 }
 
 h1 {
-color: #B0C4DE;
+color: #B0C4DE; <!-- gives color and a font/ font position to all headings in my web site -->
 font-family: Courier New;
 text-align: center;
 }
@@ -60,6 +60,7 @@ width: 500px;
 
 body {
 line-height: 1.6;
+background-color: white; <!-- gives a background color to all pages -->
 }
 .main-content{
   padding-left: 50px;
